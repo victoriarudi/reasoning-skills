@@ -1,3 +1,8 @@
+---
+name: matrix
+description: "For mapping a reality, comparing options, diagnosing a terrain, surfacing tradeoffs, or clarifying why a decision is stuck. A structured protocol for designing strong 2x2 matrices that focuses on axis design over quadrant filling."
+---
+
 # 2x2 Matrix Skill
 
 This skill is for building a 2x2 matrix that helps make complexity legible.

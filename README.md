@@ -45,8 +45,8 @@ The list is growing.
 | ---------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 2x2 matrix | Rebuilt framework | Designs strong 2x2 matrices by treating axis selection as the core analytical act, not quadrant filling. Produces two materially different matrix options and compares what each reveals and hides. |
 
-## Built for the open Agent Skills standard
-These skills are built on the open [Agent Skills](https://agentskills.io/home) standard. They work with Claude Code, Cursor, Windsurf, Cline, GitHub Copilot, and any AI agent that supports the standard.
+## How to use
+Copy the skill folder you want into your project's skills directory. Each skill is self-contained: just the folder and its SKILL.md. Works with Claude Code, Cursor, Windsurf, Cline, GitHub Copilot, and any agent that supports the open Agent Skills standard.
 
 ## About
 Built by [Victoria Rudi](https://victoriarudi.xyz/). This is a growing repository. More skills are in progress.

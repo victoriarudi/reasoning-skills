@@ -45,6 +45,11 @@ The list is growing.
 | ---------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 2x2 matrix | Rebuilt framework | Designs strong 2x2 matrices by treating axis selection as the core analytical act, not quadrant filling. Produces two materially different matrix options and compares what each reveals and hides. |
 
+## A note on skill depth
+Most skills are short because they describe a framework at the label level: name it, define it in a sentence, and let the LLM fill in the rest. The problem is that the LLM's defaults are generic. It will produce something that looks like a second-order effects analysis or a 2x2 matrix, but it won't know what separates a strong one from a weak one, where the common failure modes are, or when the framework is being applied to the wrong problem.
+
+These skills are built differently. They specify what each cognitive function should focus on, what questions it should ask before acting, what criteria distinguish strong output from weak output, what the framework tends to get wrong, and what the final deliverable should actually contain. The length comes from encoding the judgment, the part that's usually missing when an LLM runs a framework on autopilot.
+
 ## How to use
 Copy the skill folder you want into your project's skills directory. Each skill is self-contained: just the folder and its SKILL.md. Works with Claude Code, Cursor, Windsurf, Cline, GitHub Copilot, and any agent that supports the open Agent Skills standard.
 
